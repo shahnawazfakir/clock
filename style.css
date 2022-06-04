@@ -130,7 +130,7 @@ p {
 	color: #131313;
 }
 
-.lowerleft {
+#lowerleft {
   color: #FFF;
   font-size: 30px;
   font-weight: 400;
@@ -140,6 +140,6 @@ p {
   margin: 0.5rem;
 }
 
-.lowerleft:hover {
+#lowerleft:hover {
     color: #39ff14;
 }
