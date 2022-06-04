@@ -33,11 +33,11 @@ setInterval(function () {
 	minDigit2.innerHTML = minutes[1];
 
 	if (ampm == "am") {
-		am.style.backgroundColor = "#f33";
+		am.style.backgroundColor = "#ff0028";
 		pm.style.backgroundColor = "transparent";
 	} else {
 		am.style.backgroundColor = "transparent";
-		pm.style.backgroundColor = "#f33";
+		pm.style.backgroundColor = "#ff0028";
 	}
 
 	var digit = document.querySelectorAll("p");

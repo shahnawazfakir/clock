@@ -4,7 +4,6 @@ body {
     background-color: #1A1A1A;
 }
 
-
 p {
 	margin: 0;
 }
@@ -130,16 +129,18 @@ p {
 	color: #131313;
 }
 
-#lowerleft {
-  color: #FFF;
-  font-size: 30px;
-  font-weight: 400;
-  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
-  position: absolute;
-  left: 0; bottom: 0;
-  margin: 0.5rem;
+.box {
+    position: relative;
+}
+.bottom {
+	color: #fff;
+	font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-#lowerleft:hover {
+.bottom:hover {
     color: #39ff14;
 }
