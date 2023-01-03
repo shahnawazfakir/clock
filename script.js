@@ -1,6 +1,6 @@
 window.onload = function () {
 	if (window.innerWidth < 790) {
-		document.querySelector(".clock-container").style.transform = `scale(${window.outerWidth/790-0.1})`;
+		document.querySelector(".clock-container").style.transform = `scale(${window.outerWidth / 790 - 0.1})`;
 	}
 };
 

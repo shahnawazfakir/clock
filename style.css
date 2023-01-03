@@ -1,7 +1,7 @@
 body {
-    margin: auto;
-    font-family: 'ds-digitalbold';
-    background-color: #1A1A1A;
+	margin: auto;
+	font-family: 'ds-digitalbold';
+	background-color: #1A1A1A;
 }
 
 p {
@@ -129,19 +129,31 @@ p {
 	color: #131313;
 }
 
-.box {
-    position: relative;
-}
-.bottom {
-	color: #fff;
+.hover-underline-animation {
+	display: inline-block;
+	position: absolute;
+	color: #FFFFFF;
 	font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+	font-weight: 400;
+	bottom: 0;
+	left: 0;
 	margin: 1rem;
 }
 
-.bottom:hover {
-    color: #39ff14;
+.hover-underline-animation::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(48, 209, 88);
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
